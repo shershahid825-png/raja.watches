@@ -1,9 +1,6 @@
 backend:
-  name: github
-  repo: shershahid825-png/raja.watches   # <-- change this
+  name: git-gateway
   branch: main
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
