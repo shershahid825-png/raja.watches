@@ -1,0 +1,16 @@
+{
+  "products": [
+    { "name": "Sovereign", "tag": "Round · Leather",   "price": "12,500", "case": "round",   "strap": "leather", "image": "" },
+    { "name": "Regent",    "tag": "Square · Mesh",     "price": "14,900", "case": "square",  "strap": "mesh",    "image": "" },
+    { "name": "Ember",     "tag": "Round · Chain",     "price": "11,200", "case": "round",   "strap": "chain",   "image": "" },
+    { "name": "Noir",      "tag": "Octagon · Leather", "price": "15,800", "case": "octagon", "strap": "leather", "image": "" },
+    { "name": "Aurelia",   "tag": "Round · Mesh",      "price": "13,400", "case": "round",   "strap": "mesh",    "image": "" },
+    { "name": "Monarch",   "tag": "Cushion · Chain",   "price": "16,300", "case": "cushion", "strap": "chain",   "image": "" },
+    { "name": "Dusk",      "tag": "Round · Leather",   "price": "10,900", "case": "round",   "strap": "leather", "image": "" },
+    { "name": "Imperial",  "tag": "Octagon · Chain",   "price": "17,600", "case": "octagon", "strap": "chain",   "image": "" },
+    { "name": "Vesper",    "tag": "Square · Leather",  "price": "12,900", "case": "square",  "strap": "leather", "image": "" },
+    { "name": "Crown",     "tag": "Round · Chain",     "price": "14,200", "case": "round",   "strap": "chain",   "image": "" },
+    { "name": "Solstice",  "tag": "Cushion · Mesh",    "price": "15,100", "case": "cushion", "strap": "mesh",    "image": "" },
+    { "name": "Legacy",    "tag": "Octagon · Leather", "price": "18,400", "case": "octagon", "strap": "leather", "image": "" }
+  ]
+}

@@ -1,0 +1,38 @@
+backend:
+  name: github
+  repo: YOUR_GITHUB_USERNAME/YOUR_REPO_NAME   # <-- change this
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "products"
+    label: "Watches"
+    files:
+      - file: "products.json"
+        label: "Product List"
+        name: "products"
+        fields:
+          - label: "Watches"
+            name: "products"
+            widget: "list"
+            summary: "{{fields.name}} — Rs. {{fields.price}}"
+            fields:
+              - { label: "Name",  name: "name",  widget: "string" }
+              - { label: "Tag (shown under name)", name: "tag", widget: "string" }
+              - { label: "Price (PKR, numbers only)", name: "price", widget: "string" }
+              - label: "Case Shape"
+                name: "case"
+                widget: "select"
+                options: ["round", "square", "octagon", "cushion"]
+              - label: "Strap Style"
+                name: "strap"
+                widget: "select"
+                options: ["leather", "mesh", "chain"]
+              - label: "Photo (optional — leave empty to use the default icon)"
+                name: "image"
+                widget: "image"
+                required: false
